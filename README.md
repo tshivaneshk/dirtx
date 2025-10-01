@@ -25,3 +25,25 @@ git clone https://github.com/tshivaneshk/dirtx.git
 cd dirtx
 chmod +x setup.sh
 ./setup.sh
+```
+
+## Usage
+- Organize Current Folder
+```bash
+dirtx
+```
+Organize a specific folder:
+```bash
+dirtx -f ~/Downloads
+```
+Only move files older than 7 days:
+```bash
+dirtx -f ~/Downloads -d 7
+```
+Update dirtx to the latest version:
+```bash
+dirtx --update
+```
+Show Help:
+```bash
+dirtx --help

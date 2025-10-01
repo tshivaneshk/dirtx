@@ -14,5 +14,5 @@ dirtx is a professional CLI tool to organize your files automatically into categ
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/dirtx.git
+git clone https://github.com/tshivaneshk/dirtx.git
 cd dirtx

@@ -26,24 +26,31 @@ cd dirtx
 chmod +x setup.sh
 ./setup.sh
 ```
+---
 
 ## Usage
 - Organize Current Folder
 ```bash
 dirtx
 ```
-Organize a specific folder:
+- Organize a specific folder:
 ```bash
 dirtx -f ~/Downloads
 ```
-Only move files older than 7 days:
+- Only move files older than 7 days:
 ```bash
 dirtx -f ~/Downloads -d 7
 ```
-Update dirtx to the latest version:
+- Update dirtx to the latest version:
 ```bash
 dirtx --update
 ```
-Show Help:
+- Show Help:
 ```bash
 dirtx --help
+```
+----
+
+## License
+This project is licensed under the MIT License.
+Please view LICENSE for more details.
